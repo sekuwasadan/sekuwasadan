@@ -56,8 +56,7 @@ const ReservationSection = () => {
             {[
               { label: "Full Name", type: "text", name: "name", placeholder: "Your name" },
               { label: "Phone Number", type: "tel", name: "phone", placeholder: "+977 98X-XXXXXXX" },
-              { label: "Preferred Date", type: "date", name: "date", placeholder: "" },
-              { label: "Number of Guests", type: "number", name: "guests", placeholder: "2" },
+              { label: "Message", type: "text", name: "message", placeholder: "Your message" },
             ].map((field) => (
               <div key={field.label}>
                 <label className="block text-xs uppercase tracking-widest text-primary mb-2 font-body">
@@ -77,7 +76,7 @@ const ReservationSection = () => {
               type="submit"
               whileTap={{ scale: 0.97 }}
               className={`w-full py-4 rounded-full font-body font-bold uppercase tracking-widest text-sm transition-all duration-300 ${
-                result === "✓ Reservation Received!"
+                result === "✓ Message Send!"
                   ? "bg-green-600 text-foreground scale-105"
                   : "bg-primary text-primary-foreground hover:bg-accent ember-pulse"
               }`}
