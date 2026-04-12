@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import aboutImg from "@/assets/about-bg.jpg";
+import aboutImg from "@/assets/sekuwa-house-pokhara.jpg";
 
 const AboutSection = () => {
   return (

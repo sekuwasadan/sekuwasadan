@@ -40,7 +40,7 @@ const ReservationSection = () => {
           >
             {[
               { label: "Full Name", type: "text", placeholder: "Your name" },
-              { label: "Phone Number", type: "tel", placeholder: "+977 9800000000" },
+              { label: "Phone Number", type: "tel", placeholder: "+977 985-6081831" },
               { label: "Preferred Date", type: "date", placeholder: "" },
               { label: "Number of Guests", type: "number", placeholder: "2" },
             ].map((field) => (
@@ -84,8 +84,8 @@ const ReservationSection = () => {
               <div>
                 <h4 className="font-heading font-bold text-foreground mb-1">Location</h4>
                 <p className="text-muted-foreground text-sm">
-                  Thamel Marg, Ward No. 26<br />
-                  Kathmandu 44600, Nepal
+                  Shivalaya Marga<br />
+                  Pokhara 33700, Nepal
                 </p>
               </div>
             </div>
@@ -95,7 +95,7 @@ const ReservationSection = () => {
               </div>
               <div>
                 <h4 className="font-heading font-bold text-foreground mb-1">Phone</h4>
-                <p className="text-muted-foreground text-sm">+977 01-4700123</p>
+                <p className="text-muted-foreground text-sm">+977 985-6081831</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
