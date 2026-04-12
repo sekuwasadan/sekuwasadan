@@ -14,7 +14,7 @@ const testimonials = [
   },
   {
     name: "James Walker",
-    text: "As a traveler, this was the highlight of my Kathmandu trip. Real fire-grilled meat with incredible Nepali spices. A must-visit for any food lover.",
+    text: "As a traveler, this was the highlight of my Pokhara trip. Real fire-grilled meat with incredible Nepali spices. A must-visit for any food lover.",
     rating: 5,
   },
 ];

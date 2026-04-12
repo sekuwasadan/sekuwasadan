@@ -50,8 +50,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.2, ease: [0.2, 0, 0, 1] }}
           className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10"
         >
-          Forty-eight years of wood-fire tradition, seasoned with the wild heat
-          of Himalayan Timur and the soul of Kathmandu.
+          Forty-eight years of wood-fire tradition, seasoned with the bold heat of Himalayan timur and the soul of Pokhara — serving the best sekuwa in Pokhara.
         </motion.p>
 
         <motion.a
