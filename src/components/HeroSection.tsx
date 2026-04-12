@@ -74,7 +74,7 @@ const HeroSection = () => {
           <a href="#about" className="hover:text-primary transition-colors">About</a>
           <a href="#menu" className="hover:text-primary transition-colors">Menu</a>
           <a href="#gallery" className="hover:text-primary transition-colors">Gallery</a>
-          <a href="#reservation" className="hover:text-primary transition-colors">Reserve</a>
+          <a href="#reservation" className="hover:text-primary transition-colors">Contact</a>
         </div>
       </nav>
     </section>

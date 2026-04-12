@@ -3,12 +3,27 @@ import { MapPin, Phone, Clock } from "lucide-react";
 import { useState } from "react";
 
 const ReservationSection = () => {
-  const [submitted, setSubmitted] = useState(false);
+  const [result, setResult] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 3000);
+  const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    setResult("Sending...");
+    const formData = new FormData(event.target as HTMLFormElement);
+    formData.append("access_key", "eb35f289-187f-4ff0-a44b-90b756db8f17");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+    if (data.success) {
+      setResult("✓ Reservation Received!");
+      (event.target as HTMLFormElement).reset();
+      setTimeout(() => setResult(""), 3000);
+    } else {
+      setResult("Something went wrong. Please try again.");
+    }
   };
 
   return (
@@ -25,13 +40,13 @@ const ReservationSection = () => {
             Join Us
           </p>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground">
-            Reserve Your <span className="text-primary">Table</span>
+            Contact<span className="text-primary"> Info</span>
           </h2>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-12 md:gap-16">
           <motion.form
-            onSubmit={handleSubmit}
+            onSubmit={onSubmit}
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -39,10 +54,10 @@ const ReservationSection = () => {
             className="space-y-6"
           >
             {[
-              { label: "Full Name", type: "text", placeholder: "Your name" },
-              { label: "Phone Number", type: "tel", placeholder: "+977 985-6081831" },
-              { label: "Preferred Date", type: "date", placeholder: "" },
-              { label: "Number of Guests", type: "number", placeholder: "2" },
+              { label: "Full Name", type: "text", name: "name", placeholder: "Your name" },
+              { label: "Phone Number", type: "tel", name: "phone", placeholder: "+977 98X-XXXXXXX" },
+              { label: "Preferred Date", type: "date", name: "date", placeholder: "" },
+              { label: "Number of Guests", type: "number", name: "guests", placeholder: "2" },
             ].map((field) => (
               <div key={field.label}>
                 <label className="block text-xs uppercase tracking-widest text-primary mb-2 font-body">
@@ -50,6 +65,7 @@ const ReservationSection = () => {
                 </label>
                 <input
                   type={field.type}
+                  name={field.name}
                   placeholder={field.placeholder}
                   required
                   className="w-full bg-transparent border-b border-foreground/20 py-4 text-foreground placeholder:text-muted-foreground focus:border-primary outline-none transition-all font-body"
@@ -61,12 +77,12 @@ const ReservationSection = () => {
               type="submit"
               whileTap={{ scale: 0.97 }}
               className={`w-full py-4 rounded-full font-body font-bold uppercase tracking-widest text-sm transition-all duration-300 ${
-                submitted
+                result === "✓ Reservation Received!"
                   ? "bg-green-600 text-foreground scale-105"
                   : "bg-primary text-primary-foreground hover:bg-accent ember-pulse"
               }`}
             >
-              {submitted ? "✓ Reservation Received!" : "Book Now"}
+              {result || "Contact"}
             </motion.button>
           </motion.form>
 
