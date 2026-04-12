@@ -5,10 +5,21 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-fixed"
-        style={{ backgroundImage: `url(${heroImg})` }}
-      />
+      <div className="absolute inset-0 bg-cover bg-center bg-fixed">
+        {/* <div
+          className="absolute inset-0 bg-cover bg-center bg-fixed"
+          style={{ backgroundImage: `url(${heroImg})` }}
+        /> */}
+        <div className="absolute inset-0 overflow-hidden">
+          <iframe
+            className="absolute top-0 left-0 w-full h-full pointer-events-none"
+            src="https://www.youtube.com/embed/9vChfQbJgm0?autoplay=1&mute=1&loop=1&playlist=9vChfQbJgm0&controls=0&showinfo=0&modestbranding=1"
+            title="Background Video"
+            frameBorder="0"
+            allow="autoplay; fullscreen"
+          ></iframe>
+        </div>
+      </div>
       {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/40 to-background" />
 
