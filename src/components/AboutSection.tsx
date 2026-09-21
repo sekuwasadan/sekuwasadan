@@ -33,16 +33,13 @@ const AboutSection = () => {
           </h2>
           <div className="space-y-4 text-muted-foreground">
             <p>
-              Born from a 48-year legacy of Nepali BBQ culture, Sekuwa House is
-              more than a restaurant — it's a living tradition. Every cut of meat
-              is hand-marinated with our secret spice blend of Himalayan Timur
-              (Szechuan pepper), roasted cumin, turmeric, and wild mountain herbs.
+              Sekuwa is a traditional Nepali BBQ loved for its smoky aroma, bold spices, and fire-grilled flavor. At Sekuwa Sadan, we bring this tradition to the table with carefully prepared meat and authentic Nepali flavors.
             </p>
             <p>
-              We grill exclusively over hardwood charcoal, the way it's been done
-              in the hills of Nepal for generations. The result is a flavor that
-              no gas grill or modern oven can replicate — smoky, aromatic, and
-              deeply primal.
+              Every cut is hand-marinated with our signature blend of Himalayan timur (Szechuan pepper), roasted cumin, turmeric, garlic, and wild mountain herbs. We grill the meat over hardwood charcoal to create a smoky aroma, juicy texture, and lightly charred finish.
+            </p>
+            <p>
+              Our goal is simple: to serve flavorful sekuwa that celebrates the taste and tradition of Nepali BBQ.
             </p>
           </div>
           <div className="flex gap-8 mt-8">

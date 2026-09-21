@@ -40,8 +40,8 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.1, ease: [0.2, 0, 0, 1] }}
           className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold text-foreground drop-shadow-2xl mb-6"
         >
-          The Taste of Nepal,{" "}
-          <span className="text-primary">Grilled</span> to Perfection
+          {" "}
+          <span className="text-primary">Authentic Sekuwa</span> in Pokhara | Traditional Nepali BBQ
         </motion.h1>
 
         <motion.p
@@ -50,7 +50,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.2, ease: [0.2, 0, 0, 1] }}
           className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10"
         >
-          Forty-eight years of wood-fire tradition, seasoned with the bold heat of Himalayan timur and the soul of Pokhara — serving the best sekuwa in Pokhara.
+          Enjoy mutton, chicken, pork and buff sekuwa marinated with traditional Nepali spices and grilled over hardwood charcoal at Sekuwa Sadan in Pokhara.
         </motion.p>
 
         <motion.a

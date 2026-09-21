@@ -8,31 +8,31 @@ import buffImg from "@/assets/buff-sekuwa.jpg";
 const dishes = [
   {
     name: "Mutton Sekuwa",
-    description: "Tender goat marinated in timur and mustard oil, grilled over hardwood charcoal until perfectly charred.",
+    description: "Best mutton sekuwa in Pokhara, made with juicy goat meat, Nepali spices, timur, and mustard oil, then charcoal-grilled. Book your table at Sekuwa Sadan.",
     price: "Rs. 650",
     image: muttonImg,
   },
   {
     name: "Chicken Sekuwa",
-    description: "Free-range chicken thighs coated in our signature spice paste, kissed by open flame.",
+    description: "Juicy free-range chicken thighs, seasoned with Nepali spices and fire-grilled for a smoky taste. Try the best chicken sekuwa in Pokhara at Sekuwa Sadan.",
     price: "Rs. 450",
     image: chickenImg,
   },
   {
-    name: "Pork Sekuwa (Bandel)",
-    description: "Succulent pork belly chunks with crispy edges, marinated in ginger, garlic, and wild herbs.",
+    name: "Pork Sekuwa ",
+    description: "Juicy pork belly marinated with ginger, garlic, and wild herbs, then fire-grilled for crispy edges. Try the best pork sekuwa in Pokhara at Sekuwa Sadan.",
     price: "Rs. 500",
     image: porkImg,
   },
   {
-    name: "Sekuwa Set",
-    description: "A complete platter with grilled meat, beaten rice (chiura), spicy pickles, and roasted tomato chutney.",
+    name: "Khaja Set",
+    description: "A hearty mix of grilled meat, chiura, achar, and tomato chutney. Try the best khaja set in Pokhara at Sekuwa Sadan.",
     price: "Rs. 750",
     image: setImg,
   },
   {
     name: "Buff Sekuwa",
-    description: "Lean buffalo meat rubbed with cumin, chili, and turmeric — bold, smoky, and incredibly tender.",
+    description: "Buffalo meat seasoned with cumin, chili, and turmeric, then fire-grilled for a bold, smoky flavor. Try the best buff sekuwa in Pokhara at Sekuwa Sadan.",
     price: "Rs. 550",
     image: buffImg,
   },
