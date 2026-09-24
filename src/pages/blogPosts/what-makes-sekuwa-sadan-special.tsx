@@ -11,7 +11,7 @@ export const post: Post = {
   excerpt:
     "What makes Sekuwa Sadan special is its focus on traditional Nepali sekuwa, flavorful local spices, and wood-fire grilling.",
   intro:
-    "What makes Sekuwa Sadan special is its focus on traditional Nepali sekuwa, flavorful local spices, and wood-fire grilling. The restaurant brings together the taste of authentic Nepali BBQ with a traditional dining experience, making it a place to enjoy sekuwa as part of Nepal's food culture rather than simply as grilled meat. In this blog, we'll explore what makes Sekuwa Sadan different, from its traditional sekuwa preparation and carefully selected spices to its wood-fire grilling technique and variety of meat options. We'll also look at how these elements come together to offer a genuine taste of Nepali cuisine and a memorable dining experience.",
+    "What makes Sekuwa Sadan special is its focus on traditional Nepali sekuwa, flavorful local spices, and wood-fire grilling. The restaurant brings together the taste of authentic Nepali BBQ with a traditional dining experience, making it a place to enjoy sekuwa as part of Nepal's food culture rather than simply as grilled meat.\n\n In this blog, we'll explore what makes Sekuwa Sadan different, from its traditional sekuwa preparation and carefully selected spices to its wood-fire grilling technique and variety of meat options. We'll also look at how these elements come together to offer a genuine taste of Nepali cuisine and a memorable dining experience.",
   sections: [
     {
       heading: "A Tradition of Authentic Nepali Sekuwa",
@@ -114,6 +114,10 @@ export const post: Post = {
           text: "While the grilled meat takes center stage, a true Nepali meal is defined by how the flavors balance across the entire table. Pairing smoky sekuwa with crisp, tangy, and spicy side elements transforms a simple snack into an authentic cultural dining ritual.",
         },
         {
+          type: "heading",
+          text: "Sekuwa Khaja Set"
+        },
+        {
           type: "paragraph",
           text: "The ultimate traditional platter brings together all the essentials of a classic Nepali khaja (snack) meal:",
         },
@@ -124,6 +128,10 @@ export const post: Post = {
             "Chiura: Crisp beaten rice that acts as the perfect crunchy base.",
             "Nepali Pickles & Chutney: A mix of house-made achar and freshly roasted tomato chutney (golbheda ko achar) for a sharp, savory kick.",
           ],
+        },
+        {
+          type: "heading",
+          text: "Traditional Sides That Complete the Meal"
         },
         {
           type: "paragraph",
@@ -148,12 +156,27 @@ export const post: Post = {
           text: "Great food is only half the story; the rest comes down to the environment, the tradition, and the warmth of shared meals.",
         },
         {
+          type: "heading",
+          text: "The Aroma and Atmosphere of Nepali BBQ"
+        },
+        {
           type: "paragraph",
           text: "The moment you walk in, the rich scent of spice-infused smoke from the open-fire grill sets the stage. Sekuwa is inherently social food, designed to be eaten slowly, shared among friends and family, and enjoyed alongside cold beverages in a relaxed, vibrant atmosphere.",
         },
         {
+          type: "heading",
+          text: "A Place to Experience Nepali Food Culture"
+        },
+        {
           type: "paragraph",
-          text: "Sekuwa Sadan serves as a bridge between tradition and hospitality. For visitors and travelers, it offers an accessible introduction to traditional Nepali culinary culture and open-fire cooking. For local diners, it provides a comforting return to nostalgic, time-honored flavors prepared just the way they should be.",
+          text: "Sekuwa Sadan serves as a bridge between tradition and hospitality.",
+        },
+        {
+          type: "list",
+          items: [
+            "For Visitors & Travelers: An accessible, authentic introduction to traditional Nepali culinary culture and open-fire cooking.",
+            "For Local Diners: A comforting return to nostalgic, time-honored flavors prepared just the way they should be.",
+          ],
         },
       ],
     },
@@ -184,14 +207,24 @@ export const post: Post = {
         {
           type: "paragraph",
           text: "Whether you are a traveler looking for an authentic taste of Nepali BBQ, a local seeking comforting time-honored flavors, or a first-timer eager to try open-fire grilled meat, Sekuwa Sadan caters to every palate. It provides a welcoming space for anyone wanting to enjoy traditional khaja platters, rich spice blends, and relaxed group dining in Pokhara.",
+        },{
+          type: "heading",
+          text: "For Travelers Visiting Pokhara"
         },
         {
           type: "paragraph",
           text: "If you are visiting Pokhara and want to experience genuine local food culture, Sekuwa Sadan offers an approachable way to dive in. Ordering a complete khaja set gives you a multi-flavored overview of traditional Nepali BBQ in a single, memorable meal.",
         },
         {
+          type: "heading",
+          text: "For Local Food Lovers"
+        },
+        {
           type: "paragraph",
           text: "For locals searching for familiar, comforting flavors, Sekuwa Sadan delivers consistency across every meat option. It is an ideal spot for group gatherings, casual catch-ups with friends, and relaxed family dinners centered around shared platters.",
+        },{
+          type: "heading",
+          text: "For Anyone Trying Sekuwa for the First Time"
         },
         {
           type: "paragraph",
@@ -218,6 +251,20 @@ export const post: Post = {
         {
           type: "paragraph",
           text: "Whether you are a traveler looking to discover authentic local flavors or a resident seeking a comforting gathering place, a memorable dining experience awaits. Visit Sekuwa Sadan in Pokhara today to taste the true flavor of authentic, fire-grilled sekuwa for yourself!",
+        },
+      ],
+    },
+
+    {
+      heading: "Final Thoughts",
+      blocks: [
+        {
+          type: "paragraph",
+          text: "Sekuwa Sadan stands out as more than just a place to enjoy grilled meat; it is a gateway to authentic Nepali culinary culture in Pokhara. By sticking strictly to traditional wood-fire grilling, signature Himalayan spice marinades like timur, and rich khaja set pairings, the restaurant preserves a time-honored food ritual meant for sharing.",
+        },
+        {
+          type: "paragraph",
+          text: "Whether you are a traveler exploring local flavors for the first time or a resident returning for the nostalgic comfort of open-fire BBQ, Sekuwa Sadan offers an unforgettable blend of atmosphere, tradition, and taste. Make sure to stop by on your next visit to Pokhara to experience genuine Nepali sekuwa hot off the wood fire.",
         },
       ],
     },

@@ -1,5 +1,5 @@
 import type { ComponentType } from "react";
-import MuttonSekuwaPage, { post as muttonSekuwaPost } from "./mutton-sekuwa";
+import MuttonSekuwaPage, { post as muttonSekuwaPost } from "./what-makes-sekuwa-sadan-special";
 import NepaliSpicesPage, { post as nepaliSpicesPost } from "./nepali-spices";
 import HardwoodCharcoalPage, { post as hardwoodCharcoalPost } from "./hardwood-charcoal";
 import StoryPage, { post as storyPost } from "./story-of-sekuwa-sadan";

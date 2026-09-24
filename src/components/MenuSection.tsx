@@ -25,7 +25,7 @@ const dishes = [
     image: porkImg,
   },
   {
-    name: "Khaja Set",
+    name: "Sekuwa Set",
     description: "A hearty mix of grilled meat, chiura, achar, and tomato chutney. Try the best khaja set in Pokhara at Sekuwa Sadan.",
     price: "Rs. 750",
     image: setImg,

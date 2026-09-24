@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroImg from "@/assets/hero-grill.jpg";
+import Navbar from "@/components/Navbar";
 
 const HeroSection = () => {
   return (
@@ -65,17 +65,7 @@ const HeroSection = () => {
       </div>
 
       {/* Nav */}
-      <nav className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-6 md:px-12 py-6">
-        <span className="font-heading text-xl font-bold text-foreground">
-          Sekuwa House
-        </span>
-        <div className="hidden md:flex gap-8 font-body text-sm uppercase tracking-widest text-muted-foreground">
-          <a href="#about" className="hover:text-primary transition-colors">About</a>
-          <a href="#menu" className="hover:text-primary transition-colors">Menu</a>
-          <a href="#gallery" className="hover:text-primary transition-colors">Gallery</a>
-          <a href="#reservation" className="hover:text-primary transition-colors">Contact</a>
-        </div>
-      </nav>
+      <Navbar />
     </section>
   );
 };
