@@ -61,11 +61,14 @@ const Blog = () => {
                   {post.category}
                 </span>
               </div>
-
-              <h2 className="font-heading font-bold text-2xl text-foreground mb-3 group-hover:text-primary transition-colors">
-                {post.title}
-              </h2>
-
+              <Link
+                to={`/blog/${post.slug}`}
+                className="inline-flex items-center gap-1 text-sm font-body font-bold uppercase tracking-widest text-primary group-hover:gap-2 transition-all"
+              >
+                <h2 className="font-heading font-bold text-2xl text-foreground mb-3 group-hover:text-primary transition-colors">
+                  {post.title}
+                </h2>
+              </Link>
               <p className="text-muted-foreground text-sm mb-6 flex-1">
                 {post.excerpt}
               </p>
