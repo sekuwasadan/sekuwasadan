@@ -26,15 +26,17 @@ const BlogPostLayout = ({ post }: { post: Post }) => {
           >
             <Link
               to="/blog"
-              className="inline-flex items-center gap-2 font-body text-sm uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors mb-8"
+              className="inline-flex items-center gap-2 font-body text-sm uppercase tracking-widest text-muted-foreground border border-border rounded-full px-4 py-2 hover:text-primary hover:border-primary/40 hover:bg-primary/5 transition-all mb-8"
             >
               <ArrowLeft className="w-4 h-4" />
               Back to all blogs
             </Link>
 
-            <span className="inline-block font-body uppercase tracking-[0.3em] text-sm text-primary mb-4">
-              {post.category}
-            </span>
+            <div className="mb-4">
+              <span className="inline-flex items-center gap-1.5 font-body uppercase tracking-widest text-xs font-bold text-primary bg-primary/10 px-3 py-1.5 rounded-full">
+                {post.category}
+              </span>
+            </div>
 
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-6">
               {post.title}
