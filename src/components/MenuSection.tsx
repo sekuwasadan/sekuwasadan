@@ -9,31 +9,31 @@ const dishes = [
   {
     name: "Mutton Sekuwa",
     description: "Best mutton sekuwa in Pokhara, made with juicy goat meat, Nepali spices, timur, and mustard oil, then charcoal-grilled. Book your table at Sekuwa Sadan.",
-    price: "Rs. 650",
+    price: "",
     image: muttonImg,
   },
   {
     name: "Chicken Sekuwa",
     description: "Juicy free-range chicken thighs, seasoned with Nepali spices and fire-grilled for a smoky taste. Try the best chicken sekuwa in Pokhara at Sekuwa Sadan.",
-    price: "Rs. 450",
+    price: "",
     image: chickenImg,
   },
   {
     name: "Pork Sekuwa ",
     description: "Juicy pork belly marinated with ginger, garlic, and wild herbs, then fire-grilled for crispy edges. Try the best pork sekuwa in Pokhara at Sekuwa Sadan.",
-    price: "Rs. 500",
+    price: "",
     image: porkImg,
   },
   {
     name: "Sekuwa Set",
     description: "A hearty mix of grilled meat, chiura, achar, and tomato chutney. Try the best khaja set in Pokhara at Sekuwa Sadan.",
-    price: "Rs. 750",
+    price: "",
     image: setImg,
   },
   {
     name: "Buff Sekuwa",
     description: "Buffalo meat seasoned with cumin, chili, and turmeric, then fire-grilled for a bold, smoky flavor. Try the best buff sekuwa in Pokhara at Sekuwa Sadan.",
-    price: "Rs. 550",
+    price: "",
     image: buffImg,
   },
 ];
